@@ -1,0 +1,36 @@
+# Go build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Go test files
+*.test
+*.prof
+coverage.out
+coverage.html
+*.cov
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Go vendor
+vendor/
+
+# Local env
+.env
+.env.local
